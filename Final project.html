@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl example.css">
+    <title>My BLog</title>
+</head>
+<body>
+    <section class="showcase">
+        
+        <video src="VN20221128_185606.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text"> 
+            <h2>welcome to...</h2>
+            <h3> Web Universitas Klabat</h3>
+            <p>Hyhy, Nama saya Mclaren, dan ini adalah web tentang Universitas klabat. 
+                Mungkin dari teman-teman penasaran dengan Universitas Klabat.</p>
+            <a href="Tentang Kami.html">Tap Here</a>
+        </div>
+
+    </section> 
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+</html>

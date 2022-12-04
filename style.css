@@ -1,0 +1,66 @@
+:root{
+    --main-color:#000;
+    --bg:#0000;
+    --border: yellow;
+}
+
+.home{
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: inherit;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.home .navbar a{
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
+
+.home .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--bg);
+}
+
+.memet{
+    background: cornsilk;
+    color: rgb(0, 0, 0);
+}
+.font{
+    color: #000;
+    
+}
+
+.conten{
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: inherit;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+
+.conten .dalam a{
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    color: rgb(0, 0, 0);
+}
+
+.conten .dalam a:hover{
+    color: white;
+    border-bottom: .1rem solid var(--bg);
+}
+
+.container{
+    width: auto;
+    padding: 0%;
+}
